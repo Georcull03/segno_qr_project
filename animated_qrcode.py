@@ -7,5 +7,5 @@ nirvana_url = urlopen(
 slts_qr_code.to_artistic(
     background=nirvana_url,
     target="animated_qr_code.gif",
-    scale=5,
+    scale=10,
 )
